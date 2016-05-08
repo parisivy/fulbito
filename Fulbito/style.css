@@ -1,0 +1,125 @@
+/*/ INDEX - FULL WEB /*/
+
+@media screen and (min-device-width: 900px) {
+
+	.background {
+		background-image: url("IMG/home_background2.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: 44%;
+		height: 98vh;
+	}
+
+	.overlay {
+		background-color: rgba(0,0,0,0.7	);
+		height: 98vh;
+	}
+
+		.navbar {
+			position: relative;
+			top: 340px;
+		}
+
+			.fa-cog {
+			  color: #fff;
+			}
+
+			.medium {
+				width: 249px;
+				margin-left: 9px;
+			}
+
+		.tagline {
+			font-family: Quicksand, sans-serif;	
+			color:#fff;
+			position:absolute;
+			top: 20px;
+			left: 5px;
+		}
+
+			.tagline h1 {
+				text-transform: uppercase;
+				font-size: 6rem;
+			}
+
+			.tagline p {
+				font-size: 1.5rem;
+			}
+
+		.buscar {
+			width: 350px;
+			border-radius: 0.25rem;
+			border: 1px solid transparent;
+			padding: .375rem 1rem;
+			text-align: center;
+		}
+
+			.large {
+				width: 155px;
+			}
+}
+		
+
+/*/ INDEX - MOBILE WEB /*/
+
+@media screen and (max-device-width: 900px) {
+
+	.background {
+		background-image: url("IMG/home_background2.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: 44%;
+		height: 130vh;
+		width: 73vh;
+	}
+
+	.overlay {
+		background-color: rgba(0,0,0,0.7);
+		height: 130vh;
+		width: 73vh;
+	}
+
+		.navbar {
+			position: relative;
+		    top: 120vh;
+		}
+
+			.fa-cog {
+			  color: #fff;
+			}
+
+			.medium {
+				width: 222px;
+				margin-left: 2px;
+			}
+
+	.tagline {
+		font-family: Quicksand, sans-serif;	
+		color:#fff;
+		position:absolute;
+		top: 20px;
+		left: 5px;
+	}
+
+		.tagline h1 {
+			text-transform: uppercase;
+			font-size: 5rem;
+		}
+
+		.tagline p {
+			font-size: 1.5rem;
+		}
+
+	.buscar {
+		width: 445px;
+		border-radius: 0.25rem;
+		border: 1px solid transparent;
+		padding: .375rem 1rem;
+		text-align: center;
+	}
+
+		.large {
+			width: 445px;
+		}
+
+}

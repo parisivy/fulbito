@@ -1,0 +1,31 @@
+/*/ HOME - FULL WEB /*/
+
+@media screen and (min-device-width: 900px) {
+
+	.post {
+		margin: 0px 0px 0px 12px;
+		
+	}
+
+}
+
+
+/*/ INDEX - MOBILE WEB /*/
+
+@media screen and (max-device-width: 900px) {
+
+	.post {
+		margin: 10px 0px 0px 30px;
+	}
+
+		.small {
+			width: 70%;
+		}
+
+		.postearBtn {
+			position: relative;
+		    right: -267px;
+		    bottom: 38px;
+		}
+
+}
